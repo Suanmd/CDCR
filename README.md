@@ -1,5 +1,5 @@
 # Scale-arbitrary Image Super-resolution Task
-## Paper in Submission
+## Introduction
 
 After surveying the literature on scale-arbitrary super-resolution, we summarize existing methods into two categories: one-stage and two-stage. The two-stage method involves learning the discrete representation (DR) of an image, requiring the prediction of convolution kernels, while the one-stage method involves learning the continuous representation (CR) of an image, directly mapping coordinates to pixel values.
 
@@ -41,4 +41,19 @@ Train the model directly by running `train.py`.
  3. [A-LIIF](https://github.com/LeeHW-THU/A-LIIF)
  4. [ArbSR](https://github.com/The-Learning-And-Vision-Atelier-LAVA/ArbSR)
 
+
+If it helps for you, please cite
+
+	@article{an2023combining,
+		author={An, Tai and Huo, Chunlei and Xiang, Shiming and Pan, Chunhong},
+		title={Combining Discrete and Continuous Representation: Scale-Arbitrary Super-Resolution for Satellite Images},
+		journal={Remote Sensing},
+		volume={15},
+		year={2023},
+		number={7},
+		article-number={1827},
+		url={https://www.mdpi.com/2072-4292/15/7/1827},
+		ISSN={2072-4292},
+		DOI={10.3390/rs15071827}
+	}
 
